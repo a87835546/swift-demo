@@ -14,6 +14,7 @@ import SnapKit
 }
 
 class CustomCell: UITableViewCell {
+    typealias callBlock = (_ :String,_ : Int) -> Void
     open weak var  deletage:CustomCellDelegate?
     var iconView:UIImageView = UIImageView.init()
     let titleLb:UILabel = UILabel.init()
@@ -21,6 +22,7 @@ class CustomCell: UITableViewCell {
     let arrowView:UIImageView = UIImageView()
     let btn:UIButton = UIButton.init()
     var strBlock : ((_ :String,_  : String) -> Void)?
+    var testBlock : callBlock?
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -79,6 +81,7 @@ class CustomCell: UITableViewCell {
         deletage?.clickBtn()
         deletage?.test(str: "使用代理传值--测试")
         strBlock?("使用闭包传值","swift")
+        testBlock?("字符串",123)
     }
     
     

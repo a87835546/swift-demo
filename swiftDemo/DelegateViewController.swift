@@ -35,6 +35,10 @@ class DelegateViewController: BaseViewController, UITableViewDelegate, UITableVi
         cell.strBlock = {(str1,str2) ->Void in
             print(str1+str2)
         }
+        cell.testBlock = {(str1, str2)-> Void in
+            print(str1 )
+            print(str2)
+        }
         return cell
     }
     
