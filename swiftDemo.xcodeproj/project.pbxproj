@@ -16,6 +16,7 @@
 		F64FA30A2675FFA1004EC135 /* user_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F64FA3072675FFA1004EC135 /* user_setting@3x.png */; };
 		F64FA30B2675FFA1004EC135 /* user_rightArrow_iconF@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F64FA3082675FFA1004EC135 /* user_rightArrow_iconF@3x.png */; };
 		F64FA30C2675FFA1004EC135 /* user_select_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F64FA3092675FFA1004EC135 /* user_select_arrow@3x.png */; };
+		F66898022678C64600B03D55 /* Test.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F66898012678C64600B03D55 /* Test.bundle */; };
 		F69FCAC72674552F00FA970D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69FCAC62674552F00FA970D /* AppDelegate.swift */; };
 		F69FCAC92674552F00FA970D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69FCAC82674552F00FA970D /* SceneDelegate.swift */; };
 		F69FCACB2674552F00FA970D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69FCACA2674552F00FA970D /* ViewController.swift */; };
@@ -68,6 +69,7 @@
 		F64FA3072675FFA1004EC135 /* user_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_setting@3x.png"; sourceTree = "<group>"; };
 		F64FA3082675FFA1004EC135 /* user_rightArrow_iconF@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_rightArrow_iconF@3x.png"; sourceTree = "<group>"; };
 		F64FA3092675FFA1004EC135 /* user_select_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_select_arrow@3x.png"; sourceTree = "<group>"; };
+		F66898012678C64600B03D55 /* Test.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Test.bundle; sourceTree = "<group>"; };
 		F69FCAC32674552F00FA970D /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69FCAC62674552F00FA970D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69FCAC82674552F00FA970D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				F69FCAFF26748AA600FA970D /* OneViewController.swift */,
 				F69FCB0026748AA600FA970D /* OneViewController.xib */,
 				F64FA2FE2675F778004EC135 /* DelegateViewController.swift */,
+				F66898012678C64600B03D55 /* Test.bundle */,
 				F64FA2FF2675F778004EC135 /* DelegateViewController.xib */,
 				F69FCAFA26745AB100FA970D /* model */,
 				F69FCAF926745A8F00FA970D /* view */,
@@ -351,6 +354,7 @@
 				F64FA3052675FBE6004EC135 /* CustomCell.xib in Resources */,
 				F64FA30A2675FFA1004EC135 /* user_setting@3x.png in Resources */,
 				F69FCAD32674553100FA970D /* LaunchScreen.storyboard in Resources */,
+				F66898022678C64600B03D55 /* Test.bundle in Resources */,
 				F69FCAD02674553100FA970D /* Assets.xcassets in Resources */,
 				F64FA30C2675FFA1004EC135 /* user_select_arrow@3x.png in Resources */,
 				F69FCACE2674552F00FA970D /* Main.storyboard in Resources */,
